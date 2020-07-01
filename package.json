@@ -1,0 +1,17 @@
+{
+  "name": "taiga-sync-media-server",
+  "version": "0.0.1",
+  "description": "HTTP server that plays media on server when read, so Taiga can recognize it as playing.",
+  "main": "index.js",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Batista <gustavo.hsbatista@gmail.com>",
+  "license": "MIT"
+}
